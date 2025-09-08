@@ -1,0 +1,26 @@
+{
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+  "pages": [
+    {
+      "path": "pages/food/index"
+    },
+    {
+      "path": "pages/package/create"
+    },
+    {
+      "path": "pages/orders/index"
+    },
+    {
+      "path": "pages/chat/index"
+    },
+    {
+      "path": "pages/profile/index"
+    },
+    {
+      "path": "pages/dispatch/index"
+    }
+  ]
+}
