@@ -16,7 +16,7 @@ import { useGuessList } from '@/composables/index'
 import PageSkeleton from './components/PageSkeleton.vue'
 
 const { safeAreaInsets } = uni.getSystemInfoSync();
-const navHeight = `calc(160rpx  + ${safeAreaInsets?.top ?? 0}px)`
+const navHeight = `calc(150rpx  + ${safeAreaInsets?.top ?? 0}px)`
 const tabbarHeight = 56 + (safeAreaInsets?.bottom ?? 0)
 
 const app = useApp()
@@ -208,7 +208,7 @@ const onRefresherrefresh = async () => {
     box-sizing: border-box;
     /* padding won't change width */
     background: #fff;
-    box-shadow: 0 1px 6px rgba(0, 0, 0, .06);
+    /* box-shadow: 0 1px 6px rgba(0, 0, 0, .06); */
     z-index: 2000;
 }
 

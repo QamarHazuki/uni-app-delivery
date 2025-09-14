@@ -1,11 +1,22 @@
 {
   "globalStyle": {
-    "navigationBarTextStyle": "white",
+    "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
   },
   "pages": [
     {
       "path": "pages/food/index"
+    },
+    {
+      "path": "pages/hot/hot"
+    },
+    {
+      "path": "pages/category/category",
+      "style": {
+        "navigationStyle": "default",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "分类"
+      }
     },
     {
       "path": "pages/package/create"
