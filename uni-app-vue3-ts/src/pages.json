@@ -8,6 +8,9 @@
       "path": "pages/food/index"
     },
     {
+      "path": "pages/profile/temp"
+    },
+    {
       "path": "pages/hot/hot"
     },
     {
@@ -49,5 +52,37 @@
         "navigationBarTitleText": "登录/注册"
       }
     }
-  ]
+  ],
+  "subPackages": [
+    {
+      "root": "pagesMember",
+      "pages": [
+        {
+          "path": "settings/settings",
+          "style": {
+            "navigationStyle": "default",
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTitleText": "设置"
+          }
+        },
+        {
+          "path": "profile/profile",
+          "style": {
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTitleText": "个人信息",
+            "navigationBarTextStyle": "white"
+          }
+        }
+      ]
+    }
+  ],
+  // 分包预下载
+  "preloadRule": {
+    "pages/profile/temp": {
+      "network": "all",
+      "packages": [
+        "pagesMember"
+      ]
+    }
+  }
 }
