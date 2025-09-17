@@ -4,6 +4,7 @@ import { useApp } from '@/store/app'
 const app = useApp()
 
 const customerTabs = [
+    { path: '/pages/login/login', text: 'login', icon: '/static/tabs/category_default.png', iconActive: '/static/tabs/category_selected.png' },
     { path: '/pages/category/category', text: '分类', icon: '/static/tabs/category_default.png', iconActive: '/static/tabs/category_selected.png' },
     { path: '/pages/food/index', text: '点餐', icon: '/static/tabs/restaurant_default.png', iconActive: '/static/tabs/restaurant_selected.png' },
     { path: '/pages/package/create', text: '代取快递', icon: '/static/tabs/package_default.png', iconActive: '/static/tabs/package_selected.png' },

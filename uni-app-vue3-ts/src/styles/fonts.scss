@@ -1,9 +1,7 @@
 @font-face {
   font-family: 'erabbit';
-  src: url('https://at.alicdn.com/t/c/font_4009193_lnbhmo3yos.woff?t=1681201348304') format('woff'),
-    url('https://at.alicdn.com/t/c/font_4009193_lnbhmo3yos.ttf?t=1681201348304') format('truetype'),
-    url('https://at.alicdn.com/t/c/font_4009193_lnbhmo3yos.svg?t=1681201348304#erabbit')
-      format('svg');
+  src:
+    url('@/static/fonts/font_4009193_lnbhmo3yos.ttf') format('truetype')
 }
 
 [class^='icon-'],

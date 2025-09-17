@@ -1,5 +1,5 @@
 {
-  "name": "小兔鲜儿",
+  "name": "校园外卖",
   "appid": "",
   "description": "",
   "versionName": "1.0.0",
@@ -52,7 +52,9 @@
   "mp-weixin": {
     "appid": "wx9a805b4df9d1c86d",
     "setting": {
-      "urlCheck": false
+      "urlCheck": false,
+      "ignoreDevUnusedFiles": false,
+      "ignoreUploadUnusedFiles": false
     },
     "usingComponents": true
   },

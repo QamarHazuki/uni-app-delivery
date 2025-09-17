@@ -19,6 +19,14 @@
       }
     },
     {
+      "path": "pages/goods/goods",
+      "style": {
+        "navigationStyle": "default",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "商品详情"
+      }
+    },
+    {
       "path": "pages/package/create"
     },
     {
@@ -32,6 +40,14 @@
     },
     {
       "path": "pages/dispatch/index"
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationStyle": "default",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "登录/注册"
+      }
     }
   ]
 }
