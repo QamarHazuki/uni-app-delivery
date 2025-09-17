@@ -30,6 +30,22 @@
       }
     },
     {
+      "path": "pages/cart/cart",
+      "style": {
+        "navigationStyle": "default",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "购物车"
+      }
+    },
+    {
+      "path": "pages/cart/cart2",
+      "style": {
+        "navigationStyle": "default",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "购物车"
+      }
+    },
+    {
       "path": "pages/package/create"
     },
     {
@@ -90,6 +106,35 @@
           }
         }
       ]
+    },
+    {
+      "root": "pagesOrder",
+      "pages": [
+        {
+          "path": "list/list",
+          "style": {
+            "navigationStyle": "default",
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTitleText": "订单列表"
+          }
+        },
+        {
+          "path": "detail/detail",
+          "style": {
+            "navigationStyle": "default",
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTitleText": "订单详情"
+          }
+        },
+        {
+          "path": "create/create",
+          "style": {
+            "navigationStyle": "default",
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTitleText": "填写订单"
+          }
+        }
+      ]
     }
   ],
   // 分包预下载
@@ -99,6 +144,6 @@
       "packages": [
         "pagesMember"
       ]
-    }
+    },
   }
 }
