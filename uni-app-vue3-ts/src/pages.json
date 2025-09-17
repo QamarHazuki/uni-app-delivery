@@ -72,6 +72,22 @@
             "navigationBarTitleText": "个人信息",
             "navigationBarTextStyle": "white"
           }
+        },
+        {
+          "path": "address/address",
+          "style": {
+            "navigationStyle": "default",
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTitleText": "收货地址"
+          }
+        },
+        {
+          "path": "address-form/address-form",
+          "style": {
+            "navigationStyle": "default",
+            "navigationBarBackgroundColor": "#ffffff",
+            "navigationBarTitleText": "地址信息"
+          }
         }
       ]
     }
