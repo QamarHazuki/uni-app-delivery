@@ -21,7 +21,7 @@
                                 <text class="sign">¥</text>
                                 <text class="price" :class="priceCom.length > 16 ? 'price2' : ''">{{
                                     priceCom
-                                    }}</text>
+                                }}</text>
                             </view>
                             <view class="inventory" v-if="!hideStock">{{ stockText }}：{{ stockCom }}</view>
                             <view class="inventory" v-else></view>
@@ -39,10 +39,10 @@
                                         item_value.ishow ? '' : 'noactived',
                                         subIndex[index1] == index2 ? 'actived' : '',
                                     ]" :style="[
-                    item_value.ishow ? '' : themeColorFn('disableStyle'),
-                    item_value.ishow ? themeColorFn('btnStyle') : '',
-                    subIndex[index1] == index2 ? themeColorFn('activedStyle') : '',
-                ]" @click="skuClick(item_value, index1, index2)">
+                                        item_value.ishow ? '' : themeColorFn('disableStyle'),
+                                        item_value.ishow ? themeColorFn('btnStyle') : '',
+                                        subIndex[index1] == index2 ? themeColorFn('activedStyle') : '',
+                                    ]" @click="skuClick(item_value, index1, index2)">
                                     {{ item_value.name }}
                                 </view>
                             </view>
@@ -65,7 +65,7 @@
             <view class="btn-wrapper" v-if="outFoStock || mode == 4">
                 <view class="sure" style="color: #ffffff; background-color: #cccccc">{{
                     noStockText
-                    }}</view>
+                }}</view>
             </view>
             <view class="btn-wrapper" v-else-if="mode == 1">
                 <view class="sure add-cart" style="border-radius: 38rpx 0rpx 0rpx 38rpx" :style="{
@@ -143,10 +143,10 @@ export default {
             default: '',
         },
         // vk云函数路由模式参数结束-----------------------------------------------------------
-        // 该商品已抢完时的按钮文字
+        // 该商品已卖完时的按钮文字
         noStockText: {
             Type: String,
-            default: '该商品已抢完',
+            default: '该商品已卖完',
         },
         // 库存文字
         stockText: {

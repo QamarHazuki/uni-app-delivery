@@ -167,7 +167,7 @@ const { guessRef, onScrolltolower } = useGuessList()
             <view class="cart-blank" v-else>
                 <image src="/static/images/blank_cart.png" class="image" />
                 <text class="text">购物车还是空的，快来挑选好货吧</text>
-                <navigator url="/pages/index/index" hover-class="none">
+                <navigator url="/pages/food/index" hover-class="none">
                     <button class="button">去首页看看</button>
                 </navigator>
             </view>

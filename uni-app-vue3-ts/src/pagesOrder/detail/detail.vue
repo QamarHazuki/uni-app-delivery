@@ -356,6 +356,8 @@ const onOrderCancel = async () => {
 </template>
 
 <style lang="scss">
+@import "@/styles/fonts.scss";
+
 page {
     display: flex;
     flex-direction: column;

@@ -190,6 +190,8 @@ const onSubmit = async () => {
 </template>
 
 <style lang="scss">
+@import "@/styles/fonts.scss";
+
 .page {
     background-color: #f4f4f4;
 }

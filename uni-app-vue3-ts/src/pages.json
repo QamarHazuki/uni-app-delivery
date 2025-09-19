@@ -121,8 +121,7 @@
         {
           "path": "detail/detail",
           "style": {
-            "navigationStyle": "default",
-            "navigationBarBackgroundColor": "#ffffff",
+            "navigationStyle": "custom",
             "navigationBarTitleText": "订单详情"
           }
         },
